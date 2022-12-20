@@ -1,7 +1,7 @@
 import telebot
 import random
 
-from env import TOKEN
+from .env import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -52,3 +52,5 @@ bot.polling()
 # git commit - 'names commit'
 ###2 git remote add origin ssh/https
 # git push origin master
+
+print('Hello') 
